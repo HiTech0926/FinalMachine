@@ -1,12 +1,12 @@
-name: FinalTECH
+name: FinalMachine
 
-author: Final_ROOT
+author: HiTech0926
 
-description: About making the world faster
+description: 从FinalTech附属中提取出的原生快捷机器
 
-main: io.taraxacum.finaltech.FinalTech
+main: com.hitech0926.finalmachine.FinalMachine
 
-website: https://github.com/zomx127/FinalTECH
+website: https://github.com/HiTech0926/FinalMachine/
 
 version: ${project.version}
 
@@ -14,35 +14,3 @@ api-version: 1.17
 
 depend:
 - Slimefun
-
-commands:
-  finaltech-copy-card:
-    description: Transform a valid item to a copy card
-    usage: /<command>
-    permission: finaltech.item.copy-card
-  finaltech-storage-card:
-    description: Transform a valid item to a storage card with given amount
-    usage: /<command> <amount>
-    permission: finaltech.item.storage-card
-  finaltech-info:
-    description: Show info about the item if it's from slimefun
-    usage: /<command>
-    permission: finaltech.item.info
-  finaltech-valid-item:
-    description: Make an item valid
-    usage: /<command>
-    permission: finaltech.valid.item
-
-permissions:
-  finaltech.item.copy-card:
-    description: Transform a valid item to a copy card
-    default: op
-  finaltech.item.storage-card:
-    description: Transform a valid item to a storage card with given amount
-    default: op
-  finaltech.item.info:
-    description: Show info about the item if it's from slimefun
-    default: true
-  finaltech.valid.item:
-    description: Make an item valid
-    default: op
